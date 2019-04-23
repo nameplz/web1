@@ -1,21 +1,18 @@
 <!doctype html>
 <html>
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123740076-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-123740076-1');
-</script>
   <title>D.A.H - Javascript</title>
   <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="colors.js">
+  </script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1><a href="index.html" style="font-size: 50px;">D.A.H</a></h1>
+  <input id="night_day" type="button" value="night" onclick="
+    nightDayHandler(this);
+  ">
   <div id="grid">
   <ol>
    <li><a href="1.html" class="saw">SocalWelfare</a></li>
